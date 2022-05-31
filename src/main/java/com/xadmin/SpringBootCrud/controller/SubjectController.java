@@ -53,6 +53,11 @@ public class SubjectController {
 		return "status";
 	}
 	
+	@GetMapping("/feat")
+	public String feature() {
+		return "inside feature 2";
+	}
+	
 	
 	
 	
