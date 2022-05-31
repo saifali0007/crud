@@ -48,6 +48,11 @@ public class SubjectController {
 		return "status";
 	}
 	
+	@GetMapping("/hit")
+	public String gits() {
+		return "status";
+	}
+	
 	
 	
 	
